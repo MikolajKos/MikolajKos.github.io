@@ -40,7 +40,7 @@
             <div class="containerHeader">
                 <div class="naszeUslugi">
                     <div class="topText">Nasze usługi.</div>
-                    <div class="botText">Jesteśmy firmą, która powstała w trosce o twoje zdrowie. Zapewniamy, że z naszą  pomocą wspólnie osiągniemy sukces! Pomóż sobie już dzisiaj decydując się na jedną z naszych ofert dietetyczno-odchudzających.</div>
+                    <div class="botText">Lite Fit, jest firmą powstałą w trosce o twoje zdrowie. Zapewniamy, że z naszą  pomocą wspólnie osiągniemy sukces! Pomóż sobie już dzisiaj decydując się na jedną z naszych ofert dietetyczno-odchudzających.</div>
                     <button class="aboutUsBTN">O nas</button>
                 </div>
 
