@@ -1,0 +1,244 @@
+body, html
+{
+    margin: 0 !important;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;;
+}
+
+header
+{
+    height: 100vh;
+
+    background-image: url(./photos/cute-slim-woman-expressing-positive-emotions-after-diet.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-color: rgba(0, 0, 0, 0.600);
+    background-blend-mode: darken;
+
+}
+
+.mainHeader
+{
+    height: 400px;
+}
+
+.headerLeftBlock
+{
+    width: 40%;
+    height: 140px;
+
+    float: left;
+}
+
+.headerRightBlock
+{
+    width: 60%;
+    height: 140px;
+
+    float: right;
+    text-align: center;
+}
+
+.logo
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+    padding: 65px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #370665;
+    color: white;
+    font-size: 40px;
+    transition: 0.5s ease-in;
+}
+
+.logoFit
+{
+    font-weight: 700;
+    background: rgb(241,74,22);
+    background: linear-gradient(90deg, rgba(241,74,22,1) 0%, rgba(252,153,24,1) 27%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.logoLite
+{
+    font-weight: 100;
+    /* transition: 0.5s ease-in; */
+}
+
+.logo:hover
+{
+    letter-spacing: 5px;
+    transition: 0.5s ease-in;
+}
+
+.logoLite:hover
+{
+    text-shadow: 0px 0px 2px rgb(255, 255, 255);
+    /* transition: 0.5s ease-in; */
+}
+
+.menu
+{
+    padding: 70px;
+    font-size: 24px;
+    color: white;
+    font-weight: 100;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+
+.aHome
+{
+    color: #FC9918;
+}
+
+.aHome, .aDiet, .aAboutUs, .aContact
+{
+    
+    transition: 0.5s;
+}
+
+.aHome:hover, .aDiet:hover, .aAboutUs:hover, .aContact:hover
+{
+    color: #FC9918;
+    transition: 0.5s;
+}
+
+.containerHeader
+{
+    width: 78%;
+    margin-left: auto; 
+    margin-right: auto;
+    color: white;
+    
+    height: 500px;
+    
+}
+
+.naszeUslugi
+{
+    width: 40%;
+    float: left;
+
+}
+
+.topText
+{
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.botText
+{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.aboutUsBTN
+{
+    background-color: transparent;
+    width: 30%;
+    margin-top: 20px;
+    height: 55px;
+    color: white;
+    border: 1px solid #FC9918;
+    transition: 0.3s;
+    font-weight: 200;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.aboutUsBTN:hover
+{
+    letter-spacing: 3px;
+    border: 1px solid #ffbe6a;
+    transition: 0.5s;
+}
+
+.stworzDieteBTN
+{
+    background-color: transparent;
+    width: 30%;
+    margin-top: 20px;
+    height: 55px;
+    color: black;
+    border: 1px solid #FC9918;
+    transition: 0.3s;
+    font-weight: 200;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.stworzDieteBTN:hover
+{
+    letter-spacing: 2px;
+    border: 1px solid #ffbe6a;
+    transition: 0.5s;
+}
+
+.mainContainer
+{
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.firstLeft
+{
+    width: 40%;
+    float: left;
+}
+
+.firstRight
+{
+    width: 40%;
+    float: right;
+}
+
+.zdjFirst
+{
+    border-radius: 30px 30px 0px 30px;
+    /* border: 10px solid #ffbe6a; */
+
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(66, 68, 90, 0.2);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(66, 68, 90, 0.2);
+    box-shadow: 0px 0px 30px 0px rgba(66, 68, 90, 0.2);
+}
+
+.first
+{
+    height: 700px;
+}
+
+.second
+{
+    height: 800px;
+    width: 100%;
+    background-color:  #370665;
+    clip-path: polygon(100% 0, 100% 64%, 0 100%, 0 40%);
+}
+
+.secondContainer
+{
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+}
