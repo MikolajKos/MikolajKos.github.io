@@ -99,13 +99,6 @@ a
     margin-right: 20px;
 }
 
-
-
-.aHome
-{
-    color: #FC9918;
-}
-
 .aHome, .aDiet, .aAboutUs, .aContact
 {
     
@@ -230,10 +223,11 @@ a
 
 .second
 {
-    height: 800px;
+    height: 837px;
     width: 100%;
-    background-color:  #370665;
-    clip-path: polygon(100% 0, 100% 64%, 0 100%, 0 40%);
+    background-image: url(./photos/tlohome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .secondContainer
@@ -241,4 +235,286 @@ a
     width: 78%;
     margin-left: auto;
     margin-right: auto;
+    height: 837px;
+}
+
+.leftSContainer
+{
+    width: 50%;
+    
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    height: 400px;
+    margin-top: 140px;
+    padding: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(66, 68, 90, 0.2);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(66, 68, 90, 0.2);
+    box-shadow: 0px 0px 30px 0px rgba(66, 68, 90, 0.2);
+}
+
+
+.titleSecond
+{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.textSecond
+{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.footer
+{
+    height: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(252,153,24);
+    background: linear-gradient(0deg, rgba(252,153,24,1) 0%, rgba(55,6,101,1) 29%);
+    margin-top: 100px;
+    /* padding: 100px; */
+    padding-top: 150px;
+    -webkit-box-shadow: 0px -7px 30px 0px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0px -7px 30px 0px rgba(0, 0, 0, 0.19);
+    box-shadow: 0px -7px 30px 0px rgba(0, 0, 0, 0.19);
+}
+
+.footerBlok
+{
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.leftFooter
+{
+    width: 33%;
+    float: left;
+}
+
+.middleFooter
+{
+    width: 33%;
+    float: left;
+}
+
+.rightFooter
+{
+    width: 33%;
+    float: left;
+}
+
+.footerMap
+{
+    border-radius: 10px;
+    width: 300px;
+}
+
+.footerRights
+{
+    width: 100%;
+    padding-top: 400px;
+    color: rgba(255, 255, 255, 0.200);
+    font-weight: 100;
+}
+
+hr
+{
+    border-color: rgba(255, 255, 255, 0.200);
+}
+
+.naglowekSrodek
+{
+    font-size: 28px;
+    color: white;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+
+.naglowekPrawo
+{
+    font-size: 28px;
+    color: white;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+
+.listaAdres
+{
+    color: white;
+    font-weight: 100;
+    line-height: 50px;
+}
+
+.headerPhp
+{
+    padding-bottom: 37px;
+}
+
+.backgroundHeader
+{
+    background-image: url(./photos/young-healthy-man-athlete-doing-exercise-with-ropes-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing.jpg);
+    height: 177px;
+    background-repeat: no-repeat;
+    background-position-y: -300px;
+    background-size: cover;
+    background-color: #000000ab;
+    background-blend-mode: darken;
+}
+
+.contactContainer
+{
+    width: 70%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 300px;
+}
+
+.leftContact
+{
+    width: 40%;
+    float: left;
+    padding: 50px;
+    height: 620px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.19);
+-moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.19);
+box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.19);
+}
+
+
+.rightContact
+{
+    width: 40%;
+    float: right;
+    height: 720px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.19);
+-moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.19);
+box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.19);
+}
+
+/* .rightConImg
+{
+
+}
+
+.rightConText
+{
+
+} */
+
+.inputCon
+{
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px 0px 30px 0px;
+    border: 0px;
+    background-color:rgb(240, 240, 240);
+    margin-bottom: 25px;
+}
+
+.submitCon
+{
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px 0px 30px 0px;
+    border: 0px;
+    background-color:#370665;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    transition: 0.8s ease-in;
+    cursor: pointer;
+}
+
+.submitCon:hover
+{
+    border-radius: 0px 30px 0px 30px;
+    transition: 0.8s ease-in;
+}
+
+.messageCon
+{
+    height: 200px;
+    word-break: break-all;
+
+}
+
+textarea
+{
+    resize: none;
+}
+
+.dietaContainer
+{
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    font-weight: 100;
+    margin-bottom: 400px;
+    
+    border-radius: 30px;
+}
+
+.dietaLeft
+{
+    width: 30%;
+    float: left;
+    padding: 70px;
+    height: 600px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    background-color: white;
+    position: relative;
+    background-image: url(./photos/young-woman-with-beautiful-body-measure-tape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.719);
+    background-blend-mode: darken;
+    color: rgba(255, 255, 255, 0.753);
+}
+
+.dietaRight
+{
+    width: 50%;
+    float: left;
+    padding: 70px;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.19);
+    border-radius: 0px 30px 30px 0px;
+    height: 600px;
+    margin-left: -50px;
+    background-color: white;
+}
+
+.input2Con
+{
+    width: 100%;
+    padding: 20px;
+    border-radius: 30px 0px 30px 0px;
+    border: 0px;
+    background-color:rgb(240, 240, 240);
+    margin-bottom: 30px;
+}
+
+.dietaRightBottom
+{
+    padding-top: 30px;
+    margin-left: 40px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 100;
 }
