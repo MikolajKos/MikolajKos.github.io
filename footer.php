@@ -8,7 +8,7 @@
         </div>
 
         <div class="middleFooter">
-            <div class="naglowekSrodek">Adres</div>
+            <div style="color: #FC9918; font-weight: 400;" class="naglowekSrodek">Adres</div>
             <ul class="listaAdres">
                 <li>Morawica 23-982</li>
                 <li>Borowikowa 13</li>
@@ -17,7 +17,7 @@
         </div>
         
         <div class="rightFooter">
-            <div class="naglowekPrawo">Kontakt</div>
+            <div style="color: #FC9918; font-weight: 400;" class="naglowekPrawo">Kontakt</div>
             <ul class="listaAdres">
                 <li>adres@domena.com</li>
                 <li>+48 555 555 555</li>
@@ -27,7 +27,7 @@
                 
         <div class="footerRights">
                 <hr/>
-            © 2021 Copyright by LiteDiet. All rights reserved.
+            © 2022 Copyright by LiteDiet. All rights reserved.
         </div>
 
     </div>

@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LiteDiet - Stwórz dietę</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     
@@ -30,15 +34,15 @@
             *Okres subskrybcji:<br><br>
 
             <input type="radio" id="radio3m"
-                name="contact" value="phone" onclick="isEmpty()">
+                name="contact" value="3 miesiące" onclick="isEmpty()">
             <label for="radio3m">3 miesiące</label><br>
 
             <input type="radio" id="radio6m"
-                name="contact" value="phone" onclick="isEmpty()">
+                name="contact" value="6 miesięcy" onclick="isEmpty()">
             <label for="radio6m">6 miesięcy</label><br>
 
             <input type="radio" id="radio1r"
-                name="contact" value="phone" onclick="isEmpty()">
+                name="contact" value="1 rok" onclick="isEmpty()">
             <label for="radio1r">1 rok</label><br><br>
 
             Dodatkowe Preferencje:<br><br>
@@ -70,21 +74,23 @@
             ?>
 
             <br>
-            <input disabled  class="submitCon" id="sBtn" style="margin-top: 40px" type="submit" value="Stwórz dietę">
+            <input disabled class="submitCon" id="sBtn" style="margin-top: 40px" type="submit" value="Stwórz dietę">
+            
             
             <script>
                 function isEmpty()
                 {
-                    let wagaBefore = document.getElementById("aktWaga").value;
-                    let wagaAfter = document.getElementById("celWaga").value;
+                    let wagaBefore = parseInt(document.getElementById("aktWaga").value);;
+                    let wagaAfter = parseInt(document.getElementById("celWaga").value);;
 
-                    if(wagaBefore != "" && wagaAfter != "" && wagaBefore > wagaAfter)
+                    if(wagaBefore !="" && wagaAfter !="" && wagaBefore > wagaAfter)
                     {
                         if(document.getElementById('radio3m').checked || document.getElementById('radio6m').checked || document.getElementById('radio1r').checked)
                         {
                             document.getElementById('sBtn').removeAttribute("disabled");
                         }
                     }
+                    
                 }
             </script>
 
@@ -110,6 +116,48 @@
 
 </div>
 
+
+<div class="dietaSecondContainer">
+    
+    <div class="leftDietaSContainer">
+
+        <div class="SContainerTop">
+            Kalkulator BMI.
+        </div>
+
+
+        <div class="SContainerBot">
+            współczynnik powstały przez podzielenie masy ciała podanej w kilogramach przez kwadrat wysokości podanej w metrach. Klasyfikacja (zakres wartości) wskaźnika BMI została opracowana wyłącznie dla dorosłych i nie może być stosowana u dzieci. Dla oceny prawidłowego rozwoju dziecka wykorzystuje się siatki centylowe, które powinny być dostosowane dla danej populacji.
+        </div>
+    
+    </div>
+
+
+    <div class="rightDietaSContainer">
+        
+        <form method="post" action="stworzDiete.php">
+            
+            Podaj swój wzrost (cm):
+            <input name="wzrost" style="margin-top: 10px;" class="inputCon" type="number" placeholder="Podaj swój wzrost"><br />
+
+            Podaj swoją masę (kg):
+            <input name="waga" style="margin-top: 10px;" class="inputCon" type="number" placeholder="Podaj swoją masę">
+
+            <input type="submit" class="submitCon" value="Oblicz"> 
+
+            <hr style="margin:10px; width:20%; margin-left: auto; margin-right: auto; background-color: lightgray;">
+            <br>
+        </form>
+
+        
+
+        <?php
+            include_once 'obliczBmi.php';
+        ?>
+
+    </div>
+
+</div>
 
 
 <?php
