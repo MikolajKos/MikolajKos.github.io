@@ -583,15 +583,16 @@ table
     border-radius: 30px 30px 30px 30px;
 }
 
-.SContainerTop
-{
-    font-size: 40px;
-    font-weight: 700;
-}
-
 .SContainerBot
 {
     margin-top: 30px;
     font-weight: 300;
     line-height: 35px;
 }
+
+.SContainerTop
+{
+    font-size: 40px;
+    font-weight: 600;
+}
+
